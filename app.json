@@ -25,6 +25,17 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "377e5df6-9978-479d-8222-e1d539d218a3"
+      }
+    },
+    "owner": "dondycles"
   }
 }
